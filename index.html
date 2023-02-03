@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULAORA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="display d-flex justify-content-around align-items-center flex-column" id="grid">
+
+
+                <h1 class="my-2">Calculadora DOLCE</h1>
+                <label for="precio" class="form-label fs-3">Ingresá el precio</label>
+                <input type="number" name="precio" id="precioInput" class="form-control form-control-lg my-2 w-50"
+                    placeholder="$">
+                <select class="form-select w-50 form-control-lg form-control" id="marginInput">
+                    <option selected disabled>Selecciona un margen</option>
+                    <option value="1.6">60%</option>
+                    <option value="1.7">70%</option>
+                    <option value="1.8">80%</option>
+                    <option value="1.9">90%</option>
+                </select>
+                <button class="btn btn-success form-control-lg my-3 w-50" id="consultarBtn"
+                    type="reset">Consultar</button>
+                <span id="resultadoInput"></span>
+
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family1: 'Roboto', sans-serif;
+    --font-family2: 'Lobster', cursive;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(5, 185, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    min-width: 50%;
+    height: 100%;
+    padding: 5rem 0;
+    background-color: rgba(4, 112, 174, 0.6)
+
+}   
+main section .display h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    
+}
+
+main section .display label{
+    font-style: italic;
+    font-family:var(--font-family1);
+    
+}
+
+#resultadoInput{
+    font-size: 5rem;
+    font-family:var(--font-family2);
+
+}
